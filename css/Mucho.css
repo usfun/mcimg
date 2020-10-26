@@ -1,0 +1,114 @@
+#main-content{
+    margin-left: unset;
+}
+#upok, #uperror{
+    display:none;
+    padding: 10px;
+    width: 60%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.msg-info{
+    width:60%;
+    margin:0 auto;
+    margin-bottom:20px;
+}
+.msg-info .alert{
+    background: #ffb8c3;
+    color: #fff;
+}
+
+.table-bordered{
+    background: #fff;
+    box-shadow: -2px 2px 20px #d2d2d2;
+    border: 1px solid #eee;
+    border-radius: 4px; 
+}
+.panel{
+    box-shadow: -2px 2px 20px #d2d2d2;
+}
+.table-bordered>thead>tr>th, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>tbody>tr>td, .table-bordered>tfoot>tr>td {
+    border: 1px solid #eee;
+}
+.btn-primary {
+    background-color: #fff;
+    border: 2px solid #ff8598;
+    color: #ff8598;
+}
+.btn-danger {
+    background-color: #ff8598;
+    border: 2px solid #ff8598;
+}
+.btn-primary:hover {
+    border: 2px solid #ff8598;
+    background-color: #ff8598;
+    color: white;
+}
+.btn-danger:hover, .btn-primary:active, .btn-primary:focus{
+    border: 2px solid #ff8598;
+    background-color: #ffb8c3;
+    color: white;
+}
+.right-btn1{
+    border: 2px solid #ff8598;
+    border-radius: 5px;
+    color: #ff8598;
+}
+.top-nav ul.top-menu > li > a{
+    border: none!important;
+    line-height: 18px;
+}
+.right-btn1 .username{
+    color: #ff8598;
+}
+.right-btn2{
+    border: 2px solid #ff8598;
+    background-color: #ffb8c3;
+    border-radius: 5px;
+    color: #fff;
+}
+.right-btn2 .username, .right-btn1 .username:hover{
+    color: #fff;
+}
+ul.top-menu > li > a:hover, ul.top-menu > li > a:focus {
+    border:2px solid #ff8598 !important;
+    background-color: #ff8598!important;
+    border-color: #ff8598 !important;
+    text-decoration: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    color: #fff !important;
+}
+#sortable .item img{
+	width: 240px;
+	border-radius: 5px;
+	box-shadow: -2px 2px 20px #d2d2d2;
+}
+#sortable .item:hover img{
+    z-index: 100;
+    transition: 0.25s;
+    overflow: hidden;
+    animation: bounceIn 0.25s ease-in 2 alternate;
+}
+@keyframes bounceIn{
+    100% {
+        transform: scale(1.07);
+    }
+}
+.nullpic{
+    width: 35%;height: 500px;margin: 0 auto;padding-top: 40px;
+}
+.nullpic p{
+    font-size: 20px;text-align: center;
+}
+@media (max-width: 768px) {
+    .table-responsive {
+        padding: 15px!important;
+    }
+    .nullpic{
+        width: 80%;
+    }
+    .nullpic p{
+        font-size: 18px;
+    }
+}
