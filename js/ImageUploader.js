@@ -8,7 +8,7 @@
                 selectButtonCopy: '选择文件',
                 secondarySelectButtonCopy: '选择更多的文件',
                 dropZone: $(this),
-                fileTypeWhiteList: ['jpg', 'png', 'jpeg', 'gif', 'bmp', 'webp'],
+                fileTypeWhiteList: ['jpg', 'png', 'jpeg', 'gif', 'bmp', 'webp', 'svg'],
                 badFileTypeMessage: '对不起，我们不能接受这种类型的文件。',
                 ajaxUrl: '/ajax/upload',
                 ajaxBfun: function(r) {
